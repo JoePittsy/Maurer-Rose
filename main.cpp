@@ -18,6 +18,7 @@ public:
     string window_title;
     float angle;
     float zoomLevel;
+    bool started;
     RenderWindow window;
 
     explicit SFML_Window(int width = 800, int height = 600, string title = "Empty Window"){
@@ -28,6 +29,7 @@ public:
         settings.antialiasingLevel = 8;
         angle = 0;
         zoomLevel = 0.01;
+        started = false;
 
         window.create(VideoMode(window_width, window_height), window_title, sf::Style::Default, settings);
     }
@@ -39,8 +41,13 @@ public:
                 if (event.type == Event::Closed)
                     window.close();
             }
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+                started = true;
+            }
+
             window.clear(Color::Black);
-            Users_Code();
+            if(started){Users_Code();}
+
             window.display();
         }
     }
@@ -100,4 +107,6 @@ public:
 int main(){
     SFML_Window myWindow(400, 400, "Maurer Rose");
     myWindow.Main_Loop();
+
+
 }
