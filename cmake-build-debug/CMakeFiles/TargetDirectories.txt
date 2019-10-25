@@ -1,0 +1,3 @@
+/home/joe/CLionProjects/Maurer Rose/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/joe/CLionProjects/Maurer Rose/cmake-build-debug/CMakeFiles/SFMLApp.dir
+/home/joe/CLionProjects/Maurer Rose/cmake-build-debug/CMakeFiles/edit_cache.dir

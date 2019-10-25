@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Rose"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\2TBDrive\;CMake Files\..\..\2TBDrive\Joe\;CMake Files\..\..\2TBDrive\Joe\Documents\;CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\;CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\SFML-2.5.1\;CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\SFML-2.5.1\lib\;CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\SFML-2.5.1\lib\cmake\;CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/joe/CLionProjects/Maurer Rose/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/joe/CLionProjects/Maurer Rose/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLApp">
+				<Option output="/home/joe/CLionProjects/Maurer Rose/cmake-build-debug/SFMLApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joe/CLionProjects/Maurer Rose/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joe/CLionProjects/Maurer Rose/SFML_INCLUDE_DIR"/>
+					<Add directory="/home/joe/2TBDrive/Joe/Documents/C_PLUS_LIBS/SFML-2.5.1/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLApp"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLApp/fast">
+				<Option output="/home/joe/CLionProjects/Maurer Rose/cmake-build-debug/SFMLApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joe/CLionProjects/Maurer Rose/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joe/CLionProjects/Maurer Rose/SFML_INCLUDE_DIR"/>
+					<Add directory="/home/joe/2TBDrive/Joe/Documents/C_PLUS_LIBS/SFML-2.5.1/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLApp/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/joe/CLionProjects/Maurer Rose/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/joe/CLionProjects/Maurer\ Rose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/joe/CLionProjects/Maurer Rose/main.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/joe/CLionProjects/Maurer Rose/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/joe/CLionProjects/Maurer Rose/../../2TBDrive/Joe/Documents/C_PLUS_LIBS/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/joe/CLionProjects/Maurer Rose/../../2TBDrive/Joe/Documents/C_PLUS_LIBS/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/joe/CLionProjects/Maurer Rose/../../2TBDrive/Joe/Documents/C_PLUS_LIBS/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/joe/CLionProjects/Maurer Rose/../../2TBDrive/Joe/Documents/C_PLUS_LIBS/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/joe/CLionProjects/Maurer Rose/../../2TBDrive/Joe/Documents/C_PLUS_LIBS/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\2TBDrive\Joe\Documents\C_PLUS_LIBS\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
