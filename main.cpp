@@ -17,6 +17,7 @@ public:
     int window_height;
     string window_title;
     float angle;
+    float zoomLevel;
     RenderWindow window;
 
     explicit SFML_Window(int width = 800, int height = 600, string title = "Empty Window"){
@@ -26,6 +27,8 @@ public:
         sf::ContextSettings settings;
         settings.antialiasingLevel = 8;
         angle = 0;
+        zoomLevel = 0.01;
+
         window.create(VideoMode(window_width, window_height), window_title, sf::Style::Default, settings);
     }
 
@@ -59,7 +62,9 @@ public:
     }
     void Users_Code(){
 
-        angle += 0.05;
+
+        zoomLevel +=0.1;
+        angle += (float)50/(float)zoomLevel;
         if(angle > 360){ angle = 0;}
 
         int n = 6;
@@ -69,14 +74,14 @@ public:
         rose.setFillColor(sf::Color::Transparent);
         rose.setOutlineColor(sf::Color::White);
         rose.setOutlineThickness(0.5);
-        rose.setPointCount(360);
+        rose.setPointCount(361);
 
 
 
 
         for (int i = 0; i < 361; ++i) {
             int k = i * d;
-            double r = 150 * sin((n*k)* PI / 180.0);
+            double r = zoomLevel * sin((n*k)* PI / 180.0);
             double x = r * cos(k * PI / 180.0);
             double y = r * sin(k * PI / 180.0);
             sf::Vector2f point = sf::Vector2f(x, y);
